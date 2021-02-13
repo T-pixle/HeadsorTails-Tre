@@ -10,9 +10,9 @@ if (randomNumber = 0){
     computerChoice = "tails";
 }
 
-if(computerChoice = userChoice){
+if(computerChoice === userChoice){
     alert("You guessed right! The coin flip landed on " + computerChoice);
-}else if (computerChoice != userChoice){
+}else if (computerChoice !=== userChoice){
     alert("Sorry, the coin flip landed on " + computerChoice);
 }
 
