@@ -4,15 +4,15 @@ var computerChoice;
 var randomNumber = Math.floor(Math.random() * 2)
 console.log(randomNumber);
 
-if (randomNumber = 0){
+if (randomNumber == 0){
     computerChoice = "heads";
-}else if (randomNumber = 1){
+}else if (randomNumber == 1){
     computerChoice = "tails";
 }
 
 if(computerChoice === userChoice){
     alert("You guessed right! The coin flip landed on " + computerChoice);
-}else if (computerChoice !=== userChoice){
+}else{
     alert("Sorry, the coin flip landed on " + computerChoice);
 }
 
