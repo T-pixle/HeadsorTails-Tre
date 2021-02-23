@@ -1,7 +1,7 @@
 // part 1: heads or tails 
 var userChoice = prompt("heads or tails");
 var computerChoice;
-var randomNumber = Math.floor(Math.random() * 2)
+var randomNumber = Math.floor(Math.random() * 2);
 console.log(randomNumber);
 
 if (randomNumber == 0){
